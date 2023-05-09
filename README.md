@@ -1,2 +1,2 @@
-# PortifolioPessoal
-Portfólio pessoal para divulgação de trabalhos e projetos
+# portifolio
+ Portifoilio Pessoal Para Exposição dos Trabalhos

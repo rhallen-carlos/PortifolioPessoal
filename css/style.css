@@ -1,0 +1,211 @@
+/*Inicio padrao*/
+
+body{
+  font-family: 'Nunito', sans-serif;  
+}
+
+/*Css padroes*/
+.pattern-h5{
+  font-size: 25px;
+  color: #01C38D;
+  margin: 20px;
+}
+.pattern-containe{
+  max-width: 960px;
+  min-height: 80vh;
+  margin: 0 auto;
+  padding: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.pattern-img {
+  max-width:300px;
+  max-height:300px;
+  margin: 10px;
+}
+
+.pattern-projects-img {
+  max-width:100%;
+}
+
+.pattern-h2{
+  padding: 25px;
+  font-size: 40px;
+  color: #01C38D;
+  font-weight: bold;
+  text-align: center;
+}
+.pattern-p{
+  margin: 10px;
+  line-height: 1.3em;
+  color:#B3B3B3;
+  font-size: 20px;
+  max-width: 485px;
+}
+
+/*Inicio header*/
+#header{
+  width: 100%;
+  background: #323133;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.header-icon{
+  color: #01C38D;
+  margin: 20px 50px;
+  font-weight: bold;
+  font-size: 30PX;
+}
+
+#header-links{
+  margin: 20px 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#header-links a{
+  color: #B3B3B3;
+  font-size: 20px;
+  padding: 8px 20px;
+  display: block;
+}
+
+
+#header-links a:hover{
+  color: #01C38D;
+}
+
+/*Inicio home*/
+
+.home{
+  background: #323133;
+  min-height: 100vh; 
+}
+
+.home-text{
+  line-height: 2.1em;
+  color:#B3B3B3;
+  font-size: 20px; 
+}
+
+.home-h1{
+  line-height: 1.1em;
+  font-size: 40px;
+  color: #01C38D;
+  font-weight: bold;
+}
+
+.home-h2{
+  font-size: 40px;
+  color: #808080;
+  font-weight: bold;
+}
+
+/*Inicio sobre*/
+
+.envelope{
+  background-color: #3C3C3C;
+  min-height: 100vh;  
+}
+
+
+.envelope-containe-img{
+  padding: 10px;
+}
+
+/*Inicio Formação*/
+.formation{
+  background: #323133;
+  min-height: 100vh;
+}
+
+/*Inicio Projetos*/
+
+.projects{
+  background: #3C3C3C;
+  min-height: 100vh;    
+}
+
+.containe-projects-example{  
+  max-width: 25%;
+  min-width: 200px;  
+  border:2px solid #01C38D;
+  border-radius: 25px;
+  padding: 5%;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+
+.projects-links i{
+  margin: 50px 25px;
+}
+
+
+/*Contato Formulario*/
+.contact{
+  background: #323133;
+}
+
+form{
+  max-width: 50%;
+}
+
+.contact-links a{
+  display: flex;
+  margin: 30px 10px;
+  color: #808080;
+  font-size: 20px;
+}
+.contact-links i{
+  margin-top: 10px;
+  margin-right: 10px;  
+}
+
+textarea,input {
+  font-size: 20px;
+  margin: 5px;
+  width: 98%;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  border: 2px solid #01C38D;
+  background: #323133;
+  color: white;
+  border-radius: 4px;
+  resize: none;
+}
+
+input[type="submit"]{
+  background: #01C38D;
+  color: white;
+}
+
+input[type="submit"]:hover{
+  background: #323133;
+  color: #01C38D;
+}
+/*Inicio Footer*/
+footer{
+  background-color: #3C3C3C;
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-p{
+  margin-bottom: 10px;
+  color:#B3B3B3;
+  font-size: 20px;
+  max-width: 485px;
+}
